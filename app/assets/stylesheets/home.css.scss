@@ -1,0 +1,38 @@
+.container{
+	height:100vh;
+	width:100vw;
+	padding:0px;
+}
+
+.section{
+	width: 100%;
+	height: 100%%;
+	position: relative;
+	z-index:1;
+	text-align:center;
+}
+
+#image{
+	background: pink;
+	height: 91%
+}
+
+#health{
+	background: red;
+}
+
+#simplicity{
+	background: blue
+}
+
+#sustainability{
+	background:green
+}
+
+#call_to_action{
+	background: purple
+}
+
+.section p{
+	padding-top: 40%
+}

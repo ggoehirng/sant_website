@@ -1,0 +1,36 @@
+img{
+	height:90px;
+	width:120px;
+	background: transparent;
+	top:100px;
+	z-index:1,000;
+
+}
+
+.logo{
+	padding: 0px;
+	margin: 0px;
+	z-index:1,000;
+}
+
+.navbar{
+	height:55px;
+	background: #fff;
+	margin-bottom:0px;
+	z-index:200;
+}
+
+.navbar-nav li{
+	font-size: 1.4em;
+	color: red
+}
+
+#circle{
+	background: white;
+	height: 95px;
+	width: 90px;
+	border-radius:50%;
+	text-align: center;
+	z-index:2;
+
+}
