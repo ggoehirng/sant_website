@@ -7,32 +7,102 @@
 .section{
 	width: 100%;
 	height: 100%%;
-	position: relative;
+	position: absolute;
 	z-index:1;
 	text-align:center;
 }
-
+//top picture section//
 #image{
 	background: pink;
-	height: 91%
+	height: 72%
+}
+
+#image div{
+	height:40%;
+	width:40%;
+	top: 60%;
+	text-align:center;
+	position: relative;
+	left: 45%;
+}
+
+#description1{
+	color: #fff;
+	font-size:1.8em;
+	font-weight: lighter;
+	position:relative;
+	z-index:100;
+	top:-70%;
+
+
+}
+
+#description1 span{
+	font-weight: bolder;
+}
+
+#image div a{
+	position: relative;
+	top:-60%;
+	margin: 0 auto;
+	display: block;
+	
+}
+
+//Sant is.. Section//
+#navigate{
+	height: 20%;
+	background:orange;
+	top:80%;
+}
+
+.santis{
+	color:white;
+	position: relative;
+	font-size: 1.5em;
+
+}
+.control{
+	position: relative;
+	height: 60%;
+	width:30%;
+}
+
+.control img{
+	height:100%;
+	width:30%;
+}
+
+#healthy{
+	left:3%
+}
+#simplicity{
+	left: 35%;
+	top: -60%
+	
+}
+#sustainability{
+	left:67%;
+	top: -120%
+
 }
 
 #health{
 	background: red;
+	top:100%
 }
 
-#simplicity{
-	background: blue
+#simple{
+	background: blue;
+	top:200%
 }
 
-#sustainability{
-	background:green
+#sustainable{
+	background:green;
+	top:300%
 }
 
 #call_to_action{
-	background: purple
-}
-
-.section p{
-	padding-top: 40%
+	background: purple;
+	top:400%
 }

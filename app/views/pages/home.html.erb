@@ -1,17 +1,36 @@
 <%= render 'layouts/header' %>
 <div class='container'>
 	<div id="image" class='section'>
-		<p> Image with buy button will go here</p>
+		<div>
+			<p id='description1'>The dried <span>superfruit</span> that transforms into a<br> tasty <span>beverage</span></p>
+			<%= link_to '<button type="button" class="btn btn-default btn-lg order1">Order Me!</button>'.html_safe, 'https://squareup.com/market/sant/gram-pouch' %>
+		</div>
 	</div>
+	<div id='navigate' class='section'>
+		<p class='santis'> Sant is....</p>
+		<div id='healthy' class='control'>
+			<img class='circle navimg' src=''>
+		</div>
+		<div id='simplicity' class='control'>
+			<img class='circle navimg' src=''>
+		</div>
+		<div id='sustainability' class='control'>
+			<img class='circle navimg' src=''>
+		</div>
+	</div>
+	
 	<div id='health' class='section'>
-		<p> message on health will go here</p>
+		<h1> Super Healthy</h1>
 	</div>
-	<div id='simplicity' class='section'>
+	
+	<div id='simple' class='section'>
 		<p> message about being simple will go here</p>
 	</div>
-	<div id="sustainability" class='section'>
+	
+	<div id="sustainable" class='section'>
 		<p> message about our sustainability will go here </p>
 	</div>
+	
 	<div id="call_to_action" class='section'>
 		<p> calls to action will go here</p>
 	</div>
