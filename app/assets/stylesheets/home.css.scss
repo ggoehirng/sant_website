@@ -13,17 +13,20 @@
 }
 //top picture section//
 #image{
-	background: pink;
-	height: 72%
+	background-image: url("https://dl.dropboxusercontent.com/s/vterxsgcizn2f65/Sant%20website%20head%20image%201.png?dl=0");
+	height: 112%;
+	background-size: cover;
+	top:-12%
+
 }
 
 #image div{
 	height:40%;
 	width:40%;
-	top: 60%;
+	top: 80%;
 	text-align:center;
 	position: relative;
-	left: 45%;
+	left: 47%;
 }
 
 #description1{
@@ -51,15 +54,17 @@
 
 //Sant is.. Section//
 #navigate{
-	height: 20%;
-	background:orange;
-	top:80%;
+	height: 100%;
+	z-index:2;
+	top:100%;
+	border-bottom: 2px solid black
+
 }
 
 .santis{
-	color:white;
+	color: black;
 	position: relative;
-	font-size: 1.5em;
+	font-size: 3.5em;
 
 }
 .control{
@@ -69,8 +74,26 @@
 }
 
 .control img{
-	height:100%;
-	width:30%;
+	height:20%;
+	width:45%;
+}
+
+.sumtext{
+	font-size: 1.5em
+}
+.fruit{
+	height:23%;
+	margin: 1.5%
+}
+
+.instruction{
+	width:27%;
+	height:15%;
+	margin: 1.5%
+}
+
+.makes{
+	margin: 1.5%
 }
 
 #healthy{
@@ -79,7 +102,10 @@
 #simplicity{
 	left: 35%;
 	top: -60%
-	
+}
+
+#simplicity img{
+	width: 20%
 }
 #sustainability{
 	left:67%;
@@ -89,20 +115,20 @@
 
 #health{
 	background: red;
-	top:100%
+	top:200%
 }
 
 #simple{
 	background: blue;
-	top:200%
+	top:300%
 }
 
 #sustainable{
 	background:green;
-	top:300%
+	top:400%
 }
 
 #call_to_action{
 	background: purple;
-	top:400%
+	top:500%
 }
