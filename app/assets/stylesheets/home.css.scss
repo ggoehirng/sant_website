@@ -13,7 +13,7 @@
 }
 //top picture section//
 #image{
-	background-image: url("https://dl.dropboxusercontent.com/s/vterxsgcizn2f65/Sant%20website%20head%20image%201.png?dl=0");
+	background-image: url("https://dl.dropboxusercontent.com/s/0x0im0y77xoycc5/SantEricaPlace-221.png?dl=0");
 	height: 112%;
 	background-size: cover;
 	top:-12%
@@ -57,7 +57,13 @@
 	height: 100%;
 	z-index:2;
 	top:100%;
-	border-bottom: 2px solid black
+	border-bottom: 2px solid black;
+	display: inline-block
+}
+
+.navigate *{
+	position: fixed;
+	background: red
 
 }
 
@@ -65,8 +71,21 @@
 	color: black;
 	position: relative;
 	font-size: 3.5em;
+	margin-left: -70%
 
 }
+
+.fruit{
+	height: 23%;
+	margin: 1.5%;
+	margin-left:-50%;
+	
+}
+
+.superfruit{
+	margin-left:-50%;
+}
+
 .control{
 	position: relative;
 	height: 60%;
@@ -81,19 +100,22 @@
 .sumtext{
 	font-size: 1.5em
 }
-.fruit{
-	height:23%;
-	margin: 1.5%
-}
+
 
 .instruction{
 	width:27%;
 	height:15%;
-	margin: 1.5%
+	margin: 1.5%;
+	margin-left:-5%;
+}
+
+.win{
+	margin-left:-5%;
 }
 
 .makes{
-	margin: 1.5%
+	margin: 1.5%;
+
 }
 
 #healthy{
@@ -111,6 +133,10 @@
 	left:67%;
 	top: -120%
 
+}
+
+.win{
+	left: 100%
 }
 
 #health{
