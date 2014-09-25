@@ -140,8 +140,27 @@
 }
 
 #health{
-	background: red;
 	top:200%
+}
+
+.fresh, .antioxidents{
+	height: 40%;
+	width: 40%
+}
+
+.antioxidents img{
+	height: 100%;
+	width: 100%
+}
+
+.fresh img{
+	height: 100%;
+	width: 100%
+}
+
+.fresh{
+	margin-top: 2%;
+	margin-left: 50%
 }
 
 #simple{
